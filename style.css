@@ -378,7 +378,7 @@ header {
 /* Project Item */
 #projects .project_box .item {
     background: #ffffff;
-    background-image: url(./assests/snake.jpg);
+    /* background-image: url(./assests/snake.jpg); */
     background-position: center;
     background-size: cover;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -389,9 +389,24 @@ header {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+#projects .project_box .item:nth-child(1){
+    background-image: url(./assests/snake.png);
+}
+
+#projects .project_box .item:nth-child(2){
+    background-image: url(./assests/weatherapp.png);
+}
+
+#projects .project_box .item:nth-child(3){
+    background-image: url(./assests/calculator.png);
+}
+
+#projects .project_box .item:nth-child(4){
+    background-image: url(./assests/hangman.png);
+}
+
 /* Hover Effect */
 #projects .project_box .item:hover {
-    /* transform: translateY(-8px); */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
