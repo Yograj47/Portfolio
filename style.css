@@ -378,7 +378,6 @@ header {
 /* Project Item */
 #projects .project_box .item {
     background: #ffffff;
-    /* background-image: url(./assests/snake.jpg); */
     background-position: center;
     background-size: cover;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
