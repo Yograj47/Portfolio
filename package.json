@@ -16,7 +16,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://Yograj47.github.io/Portfolio.git",
+  "homepage": "https://Yograj47.github.io/Portfolio",
   "scripts": {
   "start": "react-scripts start",
   "build": "react-scripts build",
