@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.9063785e.css",
+    "main.js": "/Portfolio/static/js/main.a96f91e6.js",
+    "static/media/pp.png": "/Portfolio/static/media/pp.cd7a0beadbd465aa4ad0.png",
+    "static/media/Yograj_Rijal.pdf": "/Portfolio/static/media/Yograj_Rijal.c82d9b7421cc2622a096.pdf",
+    "static/media/hangman.png": "/Portfolio/static/media/hangman.13a1040135ade09ce124.png",
+    "static/media/weatherapp.png": "/Portfolio/static/media/weatherapp.549ff4363c2bc2f56645.png",
+    "static/media/calculator.png": "/Portfolio/static/media/calculator.fb299d6ea4cca9f636d5.png",
+    "index.html": "/Portfolio/index.html",
+    "main.9063785e.css.map": "/Portfolio/static/css/main.9063785e.css.map",
+    "main.a96f91e6.js.map": "/Portfolio/static/js/main.a96f91e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9063785e.css",
+    "static/js/main.a96f91e6.js"
+  ]
+}
