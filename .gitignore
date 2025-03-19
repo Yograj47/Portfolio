@@ -1,0 +1,11 @@
+node_modules/
+.vscode/
+dist/
+build/
+logs/
+*.log
+.env
+.env.local
+.yarn.lock
+package-lock.json
+.cache/
