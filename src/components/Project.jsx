@@ -1,48 +1,36 @@
-import React from "react";
- 
- function Project(){
-     return(
-         // <!-- Projects -->
-         <div id="projects">
-             <h1>Project</h1>
-             <div className="project_box">
-                 <div className="item">
-                     <div className="box">
-                     </div>
-                     <div className="text">
-                         <h2>Snake Game</h2>
-                         <button><a href="https://yograj47.github.io/Snake/" target="_blank">Open</a></button>
-                     </div>
-                 </div>
-                 <div className="item">
-                     <div className="box">
-                     </div>
-                     <div className="text">
-                         <h2>Weather App</h2>
-                         <button><a href="https://yograj47.github.io/Weatherapp/" target="_blank">Open</a></button>
-                     </div>
-                 </div>
-                 <div className="item">
-                     <div className="box">
-                     </div>
-                     <div className="text">
-                         <h2>Calculator</h2>
-                         <button><a href="https://yograj47.github.io/Calculator/" target="_blank">Open</a></button>
-                     </div>
-                 </div>
- 
-                 <div className="item">
-                     <div className="box">
-                     </div>
-                     <div className="text">
-                         <h2>Hangman</h2>
-                         <button><a href="https://yograj47.github.io/Hangman/" target="_blank">Open</a></button>
-                     </div>
-                 </div>
-             </div>
-         </div>
- 
-     )
- }
- 
- export default Project
+import '../styles/project.css';
+function Project() {
+    const projects = [
+        { title: "Snake Game", link: "https://yograj47.github.io/Snake/" },
+        { title: "Weather App", link: "https://yograj47.github.io/Weatherapp/" },
+        { title: "Calculator", link: "https://yograj47.github.io/Calculator/" },
+        { title: "Hangman", link: "https://yograj47.github.io/Hangman/" },
+    ];
+
+    return (
+        <section id="projects" className="projects-section">
+            <h1 className="projects-title">Projects</h1>
+            <div className="project_box">
+                {projects.map((project, index) => (
+                    <div className="item" key={index}>
+                        <div className="box"></div>
+                        <div className="text">
+                            <h2>{project.title}</h2>
+                            <a
+                                href={project.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="project-btn"
+                                aria-label={`Open ${project.title}`}
+                            >
+                                Open
+                            </a>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </section>
+    );
+}
+
+export default Project;

@@ -1,5 +1,6 @@
 import pp from '../assets/pp.png'
 import cv from '../assets/CV_Yograj_Rijal.pdf';
+import '../styles/hero.css'
 
 function Hero() {
     return (
@@ -13,7 +14,10 @@ function Hero() {
                     <p>UI/UX Designer</p>
                 </div>
                 <div className="buttons">
-                    <button>Hire Me</button>
+                    <button onClick={(e) => {
+                        e.preventDefault();
+                        alert('Genric Button')
+                    }}>Hire Me</button>
                     <button><a href={cv} download> Download CV</a></button>
                 </div>
             </div>

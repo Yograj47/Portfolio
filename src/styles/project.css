@@ -1,0 +1,98 @@
+/* Section Wrapper */
+#projects {
+  padding: 60px 8%;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.projects-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--primary);
+  margin-bottom: 2rem;
+}
+
+/* Project Grid Layout */
+.project_box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.8rem;
+}
+
+/* Project Card */
+.project_box .item {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.3s ease;
+}
+
+.project_box .item:hover {
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+/* Project Image Box */
+.project_box .box {
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.4s ease;
+}
+
+.project_box .item:hover .box {
+  transform: scale(1.05);
+}
+
+/* Project Text Info */
+.project_box .text {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project_box .text h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+/* Button Styling */
+.project-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--primary);
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.project-btn:hover {
+  background-color: var(--primary-hover);
+  transform: scale(1.05);
+}
+
+/* Image Backgrounds */
+#projects .project_box .item:nth-child(1) .box {
+  background-image: url(../assets/snake.png);
+}
+
+#projects .project_box .item:nth-child(2) .box {
+  background-image: url(../assets/weatherapp.png);
+}
+
+#projects .project_box .item:nth-child(3) .box {
+  background-image: url(../assets/calculator.png);
+}
+
+#projects .project_box .item:nth-child(4) .box {
+  background-image: url(../assets/hangman.png);
+}

@@ -8,19 +8,20 @@ function About() {
 
             <div className="about-content">
                 <div className="about-image">
-                    <img src={profilePic} alt="Yograj Rijal" />
+                    <div className="image-wrapper">
+                        <img src={profilePic} alt="Yograj Rijal" />
+                    </div>
                 </div>
                 <div className="about-text">
                     <p className="about-summary">
-                        I’m <strong>Yograj Rijal</strong>, a frontend developer passionate about crafting responsive, intuitive, and user-friendly web applications. I enjoy transforming ideas into seamless digital experiences using modern technologies.
+                        I’m <strong>Yograj Rijal</strong>, a frontend developer passionate about building responsive, user-friendly web applications. Currently, I specialize in <strong>React.js</strong> while learning <strong>Node.js</strong> and <strong>MongoDB</strong> to evolve into a full-stack developer.
                     </p>
                     <p className="about-summary">
-                        Currently, I’m focused on building advanced frontend applications using <strong>React.js</strong>. At the same time, I’m expanding my backend knowledge by working with <strong>Node.js</strong>, <strong>Express.js</strong>, and <strong>MongoDB</strong>, aiming to become a skilled full-stack developer.
-                    </p>
-                    <p className="about-summary">
-                        My long-term goal is to deliver complete, scalable, and efficient web solutions that blend both frontend creativity and backend reliability.
+                        My goal is to create seamless digital experiences that combine modern design with scalable backend systems.
                     </p>
                 </div>
+            </div>
+            <div className="about-links">
             </div>
         </section>
     );
