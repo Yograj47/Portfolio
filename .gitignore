@@ -9,3 +9,4 @@ logs/
 .yarn.lock
 package-lock.json
 .cache/
+server/*
