@@ -27,6 +27,7 @@ function Navbar() {
                     href={`#${id}`}
                     onClick={toggleMenu}
                     className="font-bold text-white hover:text-blue-500 transition duration-150 ease-in"
+                    aria-label={id}
                 >
                     <IconComp />
                 </a>
